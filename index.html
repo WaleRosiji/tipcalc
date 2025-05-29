@@ -1,0 +1,65 @@
+ <!-- Tip Calculator Project Card -->
+            <div class="project-card" data-category="javascript">
+                <div class="tip-calculator">
+                    <h3>Tip Calculator</h3>
+                    <div class="calculator-container">
+                        <div class="input-group">
+                            <label class="section-title" for="bill">Bill</label>
+                            <div class="error-message">Can't be zero</div>
+                            <div class="input-icon">$</div>
+                            <input type="number" id="bill" class="input-field" placeholder="0.00">
+                        </div>
+                        
+                        <div class="section-title">Select Tip %</div>
+                        <div class="tip-options">
+                            <button class="tip-btn" value="5">5%</button>
+                            <button class="tip-btn" value="10">10%</button>
+                            <button class="tip-btn" value="15">15%</button>
+                            <button class="tip-btn" value="25">25%</button>
+                            <button class="tip-btn" value="50">50%</button>
+                            <input type="number" class="custom-tip" placeholder="Custom">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label class="section-title" for="people">Number of People</label>
+                            <div class="error-message">Can't be zero</div>
+                            <div class="input-icon">👥</div>
+                            <input type="number" id="people" class="input-field" placeholder="1">
+                        </div>
+                        
+                        <div class="output-section">
+                            <div class="output-row">
+                                <div>
+                                    <div class="output-label">Tip Amount</div>
+                                    <div class="output-subtext">/ person</div>
+                                </div>
+                                <div class="output-amount" id="tip-amount">$0.00</div>
+                            </div>
+                            
+                            <div class="output-row">
+                                <div>
+                                    <div class="output-label">Total</div>
+                                    <div class="output-subtext">/ person</div>
+                                </div>
+                                <div class="output-amount" id="total-amount">$0.00</div>
+                            </div>
+                            
+                            <button class="reset-btn" id="reset-btn" disabled>Reset</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Tip Calculator</h3>
+                    <p>A responsive calculator that helps determine tip amounts and splits bills between people.</p>
+                    <div class="tech-used">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/tip-calculator" class="code-btn" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
